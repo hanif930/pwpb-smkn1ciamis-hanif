@@ -6,6 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Muhammad Hanif</h1>
+    <form action="contact.php" method="post">
+        <label>Nis:</label>
+        <input type="text" id="nis" name="nis" required><br><br>
+
+        <label>Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label>Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required><br><br>
+
+        <label>Jenis Kelamin</label>
+        <label><input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" required>
+        <label for="laki">Laki-laki</label></label>
+        <label><input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+        <label for="perempuan">Perempuan</label></label><br><br>
+
+        <label for="alamat">Alamat:</label>
+        <input type="text" id="alamat" name="alamat" required><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
 </body>
 </html>
